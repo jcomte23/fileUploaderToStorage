@@ -1,8 +1,14 @@
-.row{
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.row {
     margin: 0%;
 }
 
-#Headboard{
+#Headboard {
     background-color: #5ea3f5;
 }
 
@@ -10,4 +16,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+footer{
+    
 }
